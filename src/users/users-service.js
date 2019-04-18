@@ -1,6 +1,7 @@
 'use strict';
 const xss = require('xss');
 const bcrypt = require('bcryptjs');
+// eslint-disable-next-line no-useless-escape
 const REGEX_UPPER_LOWER_NUMBER_SPECIAL = /(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&])[\S]+/;
 
 const UsersService = {

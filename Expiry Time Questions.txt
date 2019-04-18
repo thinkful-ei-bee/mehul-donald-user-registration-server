@@ -1,0 +1,24 @@
+Should the client or the server take more security precautions?
+The server should take more security precautions because it is possible that the client is taken over by a malicious party and the server will need to defend itself.
+What's the difference between local storage and session storage?
+Local storage is valid for all tabs of a browser but session storage is limited to the tab it is currently open in.
+What problem does a JWT expiry time solve?
+JWT expiry time solves the problem of a session being open forever when initiated.
+Is a refresh endpoint protected or public?
+A refresh endpoint is protected. 
+What would happen if a refreshed JWT was requested with a JWT that had already expired?
+If a refreshed JWT was requested with a JWT that had already expired the user would need to re-login.
+What does it mean to queue a callback?
+Queuing a callback means that a callback function is being lined up to be triggered in a certain amount of time.
+What does the clearTimeout function do and what argument do you pass into it?
+clearTimeout function cancels the timeout that is currently being counted. The argument you pass in is the id of the timeout you want to cancel.
+For which of the following events should a refresh request be queued after?
+A successful user registration request
+A successful login request//
+A page load
+A successful API request to a protected endpoint for posting a comment
+A successful refresh request
+A push state navigation event
+
+What is OIDC?
+Protocol that enables a range of clients to securely authenticate

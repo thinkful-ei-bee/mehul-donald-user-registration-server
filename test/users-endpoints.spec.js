@@ -163,7 +163,6 @@ describe.only('Users Endpoints', function() {
                        const expectedDate = new Date().toLocaleString('en', { timeZone: 'UTC' })
                        const actualDate = new Date(row.date_created).toLocaleString()
                        expect(actualDate).to.eql(expectedDate)
-                       console.log(row.password);
                        return bcrypt.compare(newUser.password, row.password)
                      })
                      .then(compareMatch => {
